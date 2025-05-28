@@ -16,20 +16,33 @@
     </activation>
     <repositories>
       <repository>
+        <id>central</id>
+        <url>https://repo1.maven.org/maven2</url>
+        <releases>
+          <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>false</enabled>
+        </snapshots>
+      </repository>
+      <repository>
         <id>nextwork-nextwork-packages</id>
-        <url>https://nextwork-253490760608.d.codeartifact.us-east-1.amazonaws.com/maven/nextwork-packages/</url>
+        <url>https://nextwork-570851831779.d.codeartifact.ap-south-1.amazonaws.com/maven/nextwork-packages/</url>
       </repository>
     </repositories>
+    <pluginRepositories>
+      <pluginRepository>
+        <id>central</id>
+        <url>https://repo1.maven.org/maven2</url>
+        <releases>
+          <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>false</enabled>
+        </snapshots>
+      </pluginRepository>
+    </pluginRepositories>
   </profile>
 </profiles>
-
-<mirrors>
-  <mirror>
-    <id>nextwork-nextwork-packages</id>
-    <name>nextwork-nextwork-packages</name>
-    <url>https://nextwork-253490760608.d.codeartifact.us-east-1.amazonaws.com/maven/nextwork-packages/</url>
-    <mirrorOf>*</mirrorOf>
-  </mirror>
-</mirrors>
 
 </settings>
