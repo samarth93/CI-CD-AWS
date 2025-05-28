@@ -34,6 +34,8 @@
         <p>Welcome to the personal webpage of Fortino Romero Mantilla.</p>
         <p>Fortino is an innovative thinker with a passion for technology and problem-solving.</p>
         <p>Stay tuned for more updates about his projects and contributions.</p>
+        <p>If you see this line, that means your latest changes are automatically deployed into production by CodePipeline!</p>
+
     </div>
 </body>
 </html>
