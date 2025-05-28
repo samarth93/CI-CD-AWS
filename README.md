@@ -220,7 +220,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support and questions:
 - Create an issue in this repository
-- Contact: [Your Email]
+- Contact: palsamarth9@gmail.com
 - Documentation: AWS Official Documentation
 
 ## 🙏 Acknowledgments
